@@ -1,0 +1,14 @@
+.menu__lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__item{
+    flex-direction: row;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.menu__item.contacto{
+    font-weight: 700;
+}

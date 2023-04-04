@@ -1,0 +1,13 @@
+.banner{
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}

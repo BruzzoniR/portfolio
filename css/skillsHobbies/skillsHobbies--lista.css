@@ -1,0 +1,12 @@
+.skillsHobbies__lista{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+@media screen and (max-width: 768px) {
+    .skillsHobbies__lista {
+        margin: auto;
+        justify-content: space-around;
+    }
+}

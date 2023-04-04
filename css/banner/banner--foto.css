@@ -1,0 +1,12 @@
+.banner__foto{
+    width: 22rem;
+    border-radius: 100%;
+    box-shadow: darkgrey 0.5rem 0.7rem 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .banner__foto {
+        margin-bottom: 1rem;
+        width: 18rem;
+    }
+}

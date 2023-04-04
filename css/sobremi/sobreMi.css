@@ -1,0 +1,14 @@
+.sobreMi{
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: start;
+    background-color: rgba(234, 242, 253, 1);
+    padding: 3rem 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .sobreMi {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}

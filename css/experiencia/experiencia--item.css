@@ -1,0 +1,46 @@
+.experiencia__item {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.item__estructura {
+    display: flex;
+    flex-direction: column;
+}
+
+.item__estructura h4 {
+    position: absolute;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.item__repo {
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.item__repo:hover {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.pagina {
+    width: 50rem;
+}
+
+@media screen and (max-width: 768px) {
+    .pagina {
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    .item__estructura {
+        margin: 0.5rem;
+    }
+
+    .experiencia__lista {
+        margin: 0.5rem;
+    }
+}

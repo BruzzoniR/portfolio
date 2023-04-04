@@ -1,0 +1,12 @@
+.sobreMi__descripcion{
+    margin-top: 1rem;
+    font-size: 15px;
+    width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .sobreMi__descripcion {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}

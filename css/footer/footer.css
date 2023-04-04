@@ -1,0 +1,15 @@
+.footer {
+    flex-direction: column;
+    background-color: rgb(54, 75, 111);
+    color: white;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+.footer p {
+    margin-bottom: 1rem;
+}
+
+.footer div a {
+    margin: 0 2rem 0 2rem;
+}

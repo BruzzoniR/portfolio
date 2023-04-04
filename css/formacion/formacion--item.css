@@ -1,0 +1,24 @@
+.formacion__item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.formacion__item img {
+    width: 6rem;
+    background-color: black;
+}
+
+.formacion__item p:first-of-type {
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .formacion__item {
+        width: 30%;
+    }
+
+    .formacion__item img {
+        width: 8rem;
+    }
+}

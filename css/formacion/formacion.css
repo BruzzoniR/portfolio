@@ -1,0 +1,15 @@
+.formacion {
+    background-color: rgba(234, 242, 253, 1);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: calc(100%-20rem)
+}
+
+.formacion h2 {
+    font-size: 30px;
+}
